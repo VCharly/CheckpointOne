@@ -1,0 +1,87 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.blue {
+    color: blue;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.subGridOne {
+    background-color: red;
+}
+
+.subGridTwo {
+    background-color: blue;
+}
+
+.subGridThree {
+    background-color: yellow;
+}
+
+.gridTree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+
+.textP {
+    background-color: aquamarine;
+}
+
+.snow {
+    background-color: aqua;
+}
+
+.snow img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+
+#uniqueTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: rgb(180, 176, 176);
+}
+
+.secondRow {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.secondRow img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: gray;
+}
+
+.gridSix > p {
+    font-family: 'Caveat', cursive;
+}
